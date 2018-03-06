@@ -23,7 +23,8 @@
     "lint:fix": "eslint . --fix; exit 0",
     "start": "npm run serve:dev",
     "test": "echo \"No tests available\"; exit 0",
-    "webpack-defaults": "webpack-defaults"
+    "webpack-defaults": "webpack-defaults",
+    "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
